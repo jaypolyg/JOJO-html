@@ -1,0 +1,38 @@
+Meeting 1:
+19/11
+7:30pm
+General planning
+
+-8:05 end of meeting 
+-color themes for each page
+Work flow: informative google doc -> write code -> style it with css and java script -> compile and debug -> mock presentation -> submit and present
+
+Meeting 2:
+29/11
+5:30 pm
+-more planning done, site map completed, roles appointed to each developer
+completed and submitted group report for our website
+established a more coherent workflow since we now have our roles
+
+-7:30 end of meeting
+
+Meeting 3:
+7/12
+12pm
+
+-2 pm end of meeting
+-created intro page and page 1, further analyzed our roles and workflow for the rest of the project
+
+Meeting 4:
+20/12
+10am
+
+-12pm end of meeting
+worked out style sheet
+
+Meeting 5:
+8/1
+2pm
+
+-4pm end of meeting
+continued communications over matching our styling.
