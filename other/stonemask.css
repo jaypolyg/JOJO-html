@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url('../images/stonemaskbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 1.5;
+    font-size: 20px;
+    background-color: #519cb1;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.navbar {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #333;
+    padding: 10px 0; 
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: rgb(250, 252, 166); 
+    font-size: 16px;
+    text-decoration: none; 
+}
+
+.navbar a:hover {
+    background-color:rgb(255, 0, 242); 
+}
+
+.text {
+    text-align: left;
+    max-width: 900px;
+    margin: 45px auto 20px;
+    padding: 10px;
+    background-color: #ffffffb6;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.479);
+    color: #000000;
+     }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 50% opacity */
+    z-index: 1;
+}
+
+.wrapper {
+    margin-top: 100px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.title {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.555);
+}
+
+.images {
+    margin-top: 100px;
+    border: 4px solid purple;
+    border-radius: 10px;
+    width: 600px;
+    height: auto;
+}
+
+.comments {
+    order: 2;
+    background-color: rgba(255, 255, 255, 0.438);
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-bottom: 100px;
+}
+
+.commentClass {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.568);
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dateClass {
+    background-color: rgba(0, 0, 0, 0.568);
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(95, 95, 95);
+}

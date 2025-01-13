@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+.navbar {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #333;
+    padding: 10px 0; 
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: rgb(250, 252, 166); 
+    font-size: 16px;
+    text-decoration: none; 
+}
+
+
+
+.navbar a:hover {
+    background-color:rgb(255, 0, 242); 
+}
+.gap {
+    margin-bottom: 5px;
+}
+
+.text-container {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1375px;
+    font-size: 18px;
+    margin-top: 32px;
+    padding: 10px;
+    background-color: #ffffffd0;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.479);
+    color: #000000;
+    flex: 1;
+}
+
+.Jonathan {
+    max-width: 1175px;
+    margin-left: 5px; 
+}
+
+.DIO {
+    max-width: 1175px;
+    margin-left: 5px; 
+}
+
+.speedwagon  {
+    max-width: 1000px;
+    margin-left: 5px; 
+}
+
+.image {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 10px #000000af;
+}
+
+.image2 {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 10px #000000af;
+    margin-top: 35px;
+}
+.banner {
+    width: 248px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+}
+
+
